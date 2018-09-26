@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Javascript: Simple Facebook</title>
+    <link rel="stylesheet" href="">
+
+    <script>
+
+        // var user = [
+        //         {
+        //             username: "luxumbra",
+        //             password: "lightandshadow"
+        //         },
+        //         {
+        //             username: "crafted",
+        //             password: "webbystuff"
+        //         },
+        //         {
+        //             username: "sns",
+        //             password: "woodystuff"
+        //         }
+        //     ]
+
+        var database = [{
+            username: "luxumbra",
+            password: "lightandshadow"
+        }];
+
+        var newsFeed = [
+            {
+                username: "Crafted",
+                timeline: "timeline item 1"
+            },
+            {
+                username: "Sticks n Stones",
+                timeline: "timeline item 2"
+            }
+        ];
+
+        var userNamePrompt = prompt("What's your username?");
+        var passwordPrompt = prompt("What's your password?");
+
+        function signIn(user, pass) {
+            if(user === database[0].username && pass === database[0].password) {
+                console.log(newsFeed);
+            } else {
+                console.log("Sorry, wrong username and/or password.");
+            }
+        }
+        signIn(userNamePrompt, passwordPrompt);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

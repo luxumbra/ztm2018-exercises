@@ -1,0 +1,140 @@
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.robots {
+}
+
+.head,
+.left_arm,
+.torso,
+.right_arm,
+.left_leg,
+.right_leg {
+	 background-color: #5f93e8;
+}
+
+.head {
+	width: 200px;
+	margin: 0 auto;
+	height: 150px;
+	border-radius: 200px 200px 0 0;
+	margin-bottom: 10px;
+	transition: all 1s ease-in-out;
+}
+
+.eyes {
+	display: flex;
+/*	width: 66%;
+	height: 150px;
+	align-content: space-between;
+	align-items: center;
+	justify-content: space-around;*/
+	/*transition: all 1s ease-in-out;*/
+}
+.left_eye, .right_eye {
+	width: 5px;
+	height: 5px;
+	border-radius: 15px;
+	border: 10px solid #fff;
+	background-color: blue;
+}
+
+.left_eye {
+	 /*These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does!*/
+	position: relative;
+	top: 100px;
+	left: 50px;
+}
+
+.right_eye {
+	position: relative;
+	top: 100px;
+	left: 110px;
+}
+.head:hover {
+	width: 300px;
+
+}
+/*.head:hover .eyes {
+	width: 45%;
+}
+.head:hover .right-eye {
+	height: 5px;
+}*/
+.upper_body {
+	width: 300px;
+	height: 150px;
+	display: flex;
+	margin: 0 auto;
+}
+.upper-body:hover {
+
+}
+.left_arm, .right_arm {
+	width: 40px;
+	height: 125px;
+	border-radius: 100px;
+}
+
+.left_arm {
+	margin-right: 10px;
+}
+.right_arm {
+	margin-left: 10px;
+	transition: all 0.4s ease-in-out;
+	transform-origin: center top;
+}
+.upper_body:hover .right_arm {
+	-webkit-transform: rotate(-150deg);
+	-moz-transform: rotate(-150deg);
+	 -o-transform: rotate(-150deg);
+	-ms-transform: rotate(-150deg);
+	transform: rotate(-150deg);
+}
+
+.torso {
+	width: 200px;
+	height: 200px;
+	border-radius: 0 0 50px 50px;
+}
+
+.lower_body {
+	width: 200px;
+	height: 200px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+	display: flex;
+}
+
+.left_leg, .right_leg {
+	width: 40px;
+	height: 120px;
+	border-radius: 0 0 100px 100px;
+	transition: 0.4s ease-in-out;
+}
+
+.left_leg {
+	margin-left: 45px;
+}
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.right_leg {
+	margin-left: 30px;
+}

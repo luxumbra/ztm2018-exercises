@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+
+    <script>
+
+        function checkDriverAge(age){
+
+            var approvedMsg = "Congratulations on your first year of driving. Enjoy the ride!";
+            var deniedMsg = "Sorry, you are too young to drive this car. Powering off";
+            var approvedOlderMsg = "Car starting. Please belt up and enjoy the ride!";
+            // var age = prompt("Please tell us your age...");
+
+            // age = Number(age);
+
+            if(age) {
+                alert("Please confirm your age: " + age);
+                if(age === 18){
+                    return approvedMsg;
+                } else if(age > 18) {
+                    return approvedOlderMsg;
+                } else {
+                    return deniedMsg;
+                }
+            } else {
+                return "You didn't enter your age";
+            }
+        }
+
+        var checkDriverAge2 = function(age) {
+            var approvedMsg = "Congratulations on your first year of driving. Enjoy the ride!";
+            var deniedMsg = "Sorry, you are too young to drive this car. Powering off";
+            var approvedOlderMsg = "Car starting. Please belt up and enjoy the ride!";
+            // var age = prompt("Please tell us your age...");
+
+            // age = Number(age);
+
+            if(age) {
+                alert("Please confirm your age: " + age);
+                if(age === 18){
+                    return approvedMsg;
+                } else if(age > 18) {
+                    return approvedOlderMsg;
+                } else {
+                    return deniedMsg;
+                }
+            } else {
+                return "You didn't enter your age";
+            }
+        }
+        //console.log(checkDriverAge(3));
+
+        //console.log(checkDriverAge2(32));
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

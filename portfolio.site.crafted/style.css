@@ -1,0 +1,48 @@
+/*
+
+
+font-family: 'Raleway', sans-serif;
+
+font-family: 'Noto Serif KR', sans-serif;
+
+font-family: 'Dosis', sans-serif;
+
+
+ */
+
+html,
+body {
+    background-color: #2E4347;
+    color: #fff;
+    height: 100%;
+    font-size: 14px;
+}
+header {
+    background: #2E4347 url("working-hands.jpg") center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 100%;
+    min-height: 100vh;
+}
+.container, .container-fluid {
+    text-align: center;
+
+}
+h1 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.intro p {
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+}
+blockquote {
+    font-family: 'Dosis', sans-serif;
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: justify-all;
+}

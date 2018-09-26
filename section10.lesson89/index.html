@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript: Keyless car</title>
+    <link rel="stylesheet" href="">
+    <script>
+        var approvedMsg = "Congratulations on your first year of driving. Enjoy the ride!";
+        var deniedMsg = "Sorry, you are too young to drive this car. Powering off";
+        var approvedOlderMsg = "Car starting. Please belt up and enjoy the ride!";
+        var age = prompt("Please tell us your age...");
+
+        age = Number(age);
+        if(age) {
+            alert("Please confirm your age: " + age);
+            if(age === 18){
+                alert(approvedMsg);
+            } else if(age > 18) {
+                alert(approvedOlderMsg);
+            } else {
+                alert(deniedMsg);
+            }
+        } else {
+            alert("You didn't enter your age");
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
