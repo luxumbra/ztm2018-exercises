@@ -1,47 +1,57 @@
 /*
 
 
-font-family: 'Raleway', sans-serif;
+font-family: 'Assistant', sans-serif;
 
-font-family: 'Noto Serif KR', sans-serif;
+font-family: 'Roboto Slab', sans-serif;
 
-font-family: 'Dosis', sans-serif;
+font-family: 'Roboto', sans-serif;
 
+font-family: 'Ubuntu', sans-serif;
 
  */
 
 html,
 body {
-    background-color: #2E4347;
+    background-color: #00444c;
     color: #fff;
-    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
+    height: 100%;
 }
+
 header {
-    background: #2E4347 url("working-hands.jpg") center;
+    /* background: #2E4347 url("working-hands.jpg") center; */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00444c+1,001f23+100 */
+    background: #00444c; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #00444c 1%, #001f23 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #00444c 1%,#001f23 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #00444c 1%,#001f23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00444c', endColorstr='#001f23',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     background-size: cover;
     background-blend-mode: overlay;
-    height: 100%;
-    min-height: 100vh;
+    /* box-shadow: 0 0 15rem 10rem rgba(0,31,35, 0.4) inset; */
+    height: 100vh;
 }
 .container, .container-fluid {
     text-align: center;
-
 }
 h1 {
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
 }
-
+span.lead {
+    font-size: 3rem;
+}
 .intro p {
-    font-family: 'Noto Serif KR', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
     font-weight: 200;
 }
 blockquote {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 3rem;
     font-weight: 200;
     text-align: justify-all;
