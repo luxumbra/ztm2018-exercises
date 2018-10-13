@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body {
+    font-size:  14px;
+    background: radial-gradient(ellipse at center, #00444c 1%,#001f23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.main {
+    padding: 4rem;
+}
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+    color: rgba(255,255,255,0.6);
+}
