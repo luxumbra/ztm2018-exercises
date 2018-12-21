@@ -1,0 +1,10 @@
+li:hover {
+  cursor: pointer;
+}
+.red {
+  color: red;
+}
+.done {
+  color: green;
+  text-decoration: line-through;
+}
