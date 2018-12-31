@@ -1,4 +1,4 @@
-import { BigNumber } from 'bignumber.js'
+// import { BigNumber } from 'bignumber.js'
 // Solve the below problems:
 
 // #1) Check if this array includes the name "John".
@@ -21,7 +21,7 @@ const powerOf = (x) => {
   // console.log('sum', sum)
   return sum
 }
-console.log(powerOf(10000))
+console.log(powerOf(10000)) // infinity
 
 // #4) Useing your function from #3, put in the paramter 10000. What is the result?
 // Research for yourself why you get this result
